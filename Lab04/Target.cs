@@ -24,7 +24,7 @@ namespace Lab04
                 Console.WriteLine("Введите значение y");
                 Shot.y = byte.Parse(Console.ReadLine());
 
-                byte Result = Math.Sqrt(Shot.x * Shot.x + Shot.y * Shot.y);
+                double Result = Math.Sqrt(Shot.x * Shot.x + Shot.y * Shot.y);
 
                 switch (Result)
                 {
