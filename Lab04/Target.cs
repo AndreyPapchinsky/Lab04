@@ -9,8 +9,8 @@ namespace Lab04
         {
             public byte x;
             public byte y;
-
         }
+        
         static void Main(string[] args)
         {
             ShotRes Shot;
@@ -43,6 +43,7 @@ namespace Lab04
                     default:
                         break;
                 }
+                
                 Console.WriteLine("Score: " + Score);
             }
 
