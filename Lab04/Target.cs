@@ -7,8 +7,8 @@ namespace Lab04
 
         public struct ShotRes
         {
-            public byte x;
-            public byte y;
+            public sbyte x;
+            public sbyte y;
         }
         
         static void Main(string[] args)
@@ -19,10 +19,10 @@ namespace Lab04
             for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine("Введите значение x");
-                Shot.x = byte.Parse(Console.ReadLine());
+                Shot.x = sbyte.Parse(Console.ReadLine());
 
                 Console.WriteLine("Введите значение y");
-                Shot.y = byte.Parse(Console.ReadLine());
+                Shot.y = sbyte.Parse(Console.ReadLine());
 
                 double Result = Math.Sqrt(Shot.x * Shot.x + Shot.y * Shot.y);
 
